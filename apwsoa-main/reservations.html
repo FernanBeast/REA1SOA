@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Reservas</title>
+    <link rel="stylesheet" href="reservations.css">
+</head>
+<body>
+    <h1>Reservar Vuelo</h1>
+    <form id="reservationForm" action="reserve_flight.php" method="POST">
+        <label for="user_id">ID de Usuario:</label>
+        <input type="text" id="user_id" name="user_id" required><br><br>
+        <label for="flight_id">ID de Vuelo:</label>
+        <input type="text" id="flight_id" name="flight_id" required><br><br>
+        <input type="submit" value="Reservar Vuelo">
+    </form>
+    <div id="reservations"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
