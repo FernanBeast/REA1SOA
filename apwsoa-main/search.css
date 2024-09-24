@@ -28,6 +28,23 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
+#password{
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 1px solid #007BFF; /* Borde azul */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+#email{
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 1px solid #007BFF; /* Borde azul */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
 
 input[type="text"] {
     width: 100%; /* Ancho completo */

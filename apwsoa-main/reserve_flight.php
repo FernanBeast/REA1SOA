@@ -1,16 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "flight_reservation";
-
-// Crear conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Verificar conexión
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require 'db.php';
 
 // Verificar si se ha enviado el ID de usuario y el ID de vuelo
 if (isset($_POST['user_id']) && isset($_POST['flight_id'])) {
